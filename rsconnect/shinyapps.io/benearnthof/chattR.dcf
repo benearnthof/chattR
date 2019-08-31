@@ -1,0 +1,13 @@
+name: chattR
+title: chattR
+username:
+account: benearnthof
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1133080
+bundleId: 2373134
+url: https://benearnthof.shinyapps.io/chattR/
+when: 1567241288.26489
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: chat.R|chat.Rds|README.md

@@ -1,7 +1,11 @@
 library(shiny)
 library(shinyjs)
+library(shinythemes)
   shinyUI(
   bootstrapPage(
+    theme = shinytheme("cyborg"),
+    includeScript("autoscroll.js"),
+    includeCSS("layout.css"),
     # define new layout
     div(
       class = "container-fluid",
@@ -15,7 +19,7 @@ library(shinyjs)
           h4("version 0.2")
         ), div(
           class = "span6", id = "timeout",
-          print(Sys.time())
+          paste0("Connected on ", Sys.time())
         )
       ),
       # main panel
